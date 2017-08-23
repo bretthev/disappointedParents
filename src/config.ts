@@ -1,0 +1,1 @@
+export const ALEXA_SKILL_ID = process.env.ALEXA_SKILL_ID;

@@ -1,0 +1,25 @@
+{
+  "name": "disappointed-parents-alexa",
+  "version": "1.0.0",
+  "description": "An Alexa skill that lets you know whether or not your parents are disappointed with you (spoiler: they are.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./automation/build.sh",
+    "publish": "npm run build && ./automation/publish.sh"
+  },
+  "author": "Brett Hevia",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.10",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^7.0.14",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.9",
+    "aws-sdk": "^2.48.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}
